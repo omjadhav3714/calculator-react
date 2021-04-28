@@ -11,3 +11,57 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body {
+  background-color: grey;
+}
+
+.result {
+  height: 60px;
+  background-color: #343A40;
+  color: #ECECEC;
+  width: 100%;
+}
+
+.result p {
+  font-size: 40px;
+  margin: 5px;
+
+}
+
+.calculator-body {
+  max-width: 300px;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.button {
+  display: block;
+  color: #fff;
+}
+
+button {
+  width: 25%;
+  height: 60px;
+  font-size: 30px;
+  background-color: #343A40;
+  color: #fff;
+}
+
+#or {
+  color: #ffcb00;
+}
+
+.chn {
+  background-color: #ffcb00 !important;
+  color: #fff !important;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #343A40;
+}
