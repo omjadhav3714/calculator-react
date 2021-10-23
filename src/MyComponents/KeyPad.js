@@ -29,7 +29,7 @@ class KeyPad extends Component {
 
 
                 <button name="." onClick={e => this.props.onClick(e.target.name)} id="or">.</button>
-                <button name="0" onClick={e => this.props.onClick(e.target.name)}>0</button>
+                <button name="0" onClick={e => this.props.onClick(e.target.name)} id="or">0</button>
                 <button name="=" onClick={e => this.props.onClick(e.target.name)} id="or" className="chn">=</button>
                 <button name="/" onClick={e => this.props.onClick(e.target.name)} id="or">÷</button><br/>
             </div>
